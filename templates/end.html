@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="{{ url_for('static', filename='stylesheet.css') }}">
+	</head>
+	<body>
+		<div class="header">
+			<h1>Virtual Flashcards</h1>
+		</div>
+		<div class="main">
+			<h2>You have seen all the flashcards</h2>
+			<h3>If you wish to go through them again, click the Restart button</h3>
+			<form action="" method="post" name="end">
+				<input type="submit" name="restart_button" value="Restart">
+			</form>
+		</div>
+		<div class="footer">
+			<h5>Hopefully you got most of the questions right!</h5>
+		</div>
+	</body>
+</html>
+

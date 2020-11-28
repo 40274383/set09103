@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="{{ url_for('static', filename='stylesheet.css') }}">
+	</head>
+	<body>
+		<div class="header">
+			<h1>Virtual Flashcards</h1>
+		</div>
+		<div class="main">
+
+			<form action="" method="post"  name="form">
+				<h2>{{ flashcard }}</h2>
+				<input type="submit" name="submit_button" value="Flip">
+				<input type="submit" name="submit_button" value="Next">
+			</form>
+		</div>
+		<div class="footer">
+			<h5>Click Flip button to see the answer. Click Next button to move onto next card</h5>
+		</div>
+	</body>
+</html>
